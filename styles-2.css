@@ -1,0 +1,58 @@
+.title {
+    font-family: "Libre Baskerville", serif;
+}
+
+#pickup,
+#destination {
+    display: block;
+    padding-left: 20px;
+    margin: 10px 0;
+    border: none;
+    background-color: rgb(233, 229, 229);
+    height: 40px;
+    width: 350px;
+    font-size: 15px;
+}
+
+.request, .schedule {
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 25px;
+    border: none;
+}
+
+.request {
+    background-color: black;
+    color: white;
+    margin-right: 15px;
+    width: 125px;
+    height: 42px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: opacity 0.2s;
+}
+
+.request:hover {
+    opacity: 0.8;
+}
+
+.request:active {
+    opacity: 0.5;
+}
+
+.schedule {
+    background-color: rgb(233, 229, 229);
+    width: 155px;
+    height: 42px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.schedule:hover {
+    background-color: rgb(206, 202, 202);
+}
+
+.schedule:active {
+    background-color: rgb(233, 229, 229);
+}
